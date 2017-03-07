@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'Marck Script';
+	src: url('/fonts/Marck_Script/MarckScript-Regular.ttf') format('truetype');
+}
+body {
+	padding-top: 90px;
+}
+h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: 'Marck Script';
+	font-size: 48px;
+}
+	h1 span {
+		color: rgb(70,116,214);
+	}
+.hidden {
+	display: none !important;
+}
+
+/* MENU-TOP */
+
+#menu-top {
+	
+}
+#menu-top .navbar-header {
+	height: 90px !important;
+}
+#menu-top .collapse.navbar-collapse {
+	height: 90px !important;
+	float: right !important;
+}
+	#menu-top .collapse.navbar-collapse ul {
+		padding-right: 10px;
+	}
+		#menu-top .collapse.navbar-collapse ul a {
+			padding: 35px 20px;
+		}
+			#menu-top .collapse.navbar-collapse ul a.active {
+				color: #fff;
+				background-color: rgb(70,116,214);
+			}
+			#menu-top .collapse.navbar-collapse ul a:link {
+				
+			}
+			#menu-top .collapse.navbar-collapse ul a:visited {
+				
+			}
+			#menu-top .collapse.navbar-collapse ul a:focus {
+				
+			}
+			#menu-top .collapse.navbar-collapse ul a:hover {
+				color: #fff;
+				background-color: black;
+			}
+			#menu-top .collapse.navbar-collapse ul a:active {
+				
+			}
+#menu-top .navbar-brand {
+	padding-top: 25px;
+	color: rgb(70,116,214);
+	font-size: 32px;
+	font-weight: 500;
+}
+#menu-top .navbar-brand small {
+	font-size: 18px;
+}
+
+/* MAIN */
+
+.activity {
+
+}
+	.activity p {
+		font-weight: bold;
+	}
+
+.contacts {
+
+}
+	.contacts p {
+		margin-bottom: 20px;
+		font-weight: bold;
+	}
+		.contacts p strong {
+			color:rgb(70,116,214);
+			font-size: 18px;
+			font-family: cursive;
+		}
+	.contacts img {
+		margin-top: 8px;
+		margin-right: 8px;
+	}
+
+table {
+	font-family: sans-serif;
+}
+	table th, table td {
+		border: none !important;
+	}
+	table tr.position {
+		background: rgba(255,255,255,0.75);
+		background: -moz-linear-gradient(left, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.76) 1%, rgba(255,255,255,0.81) 9%, rgba(255,255,255,0.81) 10%, rgba(70,115,214,0.97) 35%, rgba(70,115,214,1) 40%, rgba(70,115,214,1) 50%, rgba(70,115,214,1) 60%, rgba(70,115,214,0.97) 65%, rgba(255,255,255,0.81) 90%, rgba(255,255,255,0.75) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0.75)), color-stop(1%, rgba(255,255,255,0.76)), color-stop(9%, rgba(255,255,255,0.81)), color-stop(10%, rgba(255,255,255,0.81)), color-stop(35%, rgba(70,115,214,0.97)), color-stop(40%, rgba(70,115,214,1)), color-stop(50%, rgba(70,115,214,1)), color-stop(60%, rgba(70,115,214,1)), color-stop(65%, rgba(70,115,214,0.97)), color-stop(90%, rgba(255,255,255,0.81)), color-stop(100%, rgba(255,255,255,0.75)));
+		background: -webkit-linear-gradient(left, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.76) 1%, rgba(255,255,255,0.81) 9%, rgba(255,255,255,0.81) 10%, rgba(70,115,214,0.97) 35%, rgba(70,115,214,1) 40%, rgba(70,115,214,1) 50%, rgba(70,115,214,1) 60%, rgba(70,115,214,0.97) 65%, rgba(255,255,255,0.81) 90%, rgba(255,255,255,0.75) 100%);
+		background: -o-linear-gradient(left, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.76) 1%, rgba(255,255,255,0.81) 9%, rgba(255,255,255,0.81) 10%, rgba(70,115,214,0.97) 35%, rgba(70,115,214,1) 40%, rgba(70,115,214,1) 50%, rgba(70,115,214,1) 60%, rgba(70,115,214,0.97) 65%, rgba(255,255,255,0.81) 90%, rgba(255,255,255,0.75) 100%);
+		background: -ms-linear-gradient(left, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.76) 1%, rgba(255,255,255,0.81) 9%, rgba(255,255,255,0.81) 10%, rgba(70,115,214,0.97) 35%, rgba(70,115,214,1) 40%, rgba(70,115,214,1) 50%, rgba(70,115,214,1) 60%, rgba(70,115,214,0.97) 65%, rgba(255,255,255,0.81) 90%, rgba(255,255,255,0.75) 100%);
+		background: linear-gradient(to right, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.76) 1%, rgba(255,255,255,0.81) 9%, rgba(255,255,255,0.81) 10%, rgba(70,115,214,0.97) 35%, rgba(70,115,214,1) 40%, rgba(70,115,214,1) 50%, rgba(70,115,214,1) 60%, rgba(70,115,214,0.97) 65%, rgba(255,255,255,0.81) 90%, rgba(255,255,255,0.75) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+		color:#fff;
+	}
+		table tr.position span {
+			font-family: cursive;
+			font-weight: bold;
+			font-size: 18px;
+		}
+	table td.text-right {
+		font-weight: bold;
+	}
+	tr td:last-child {
+		font-family: cursive;
+	}
